@@ -1,25 +1,16 @@
-const express = require("express");
-const cors = require("cors");
+import "dotenv/config";
+
+import express, { json } from "express";
+
+import cors from "cors";
+import { purchasesRouter } from "./src/routes/purchases.js";
 
 const app = express();
-app.use(express.json());
+app.use(json());
 app.use(cors());
+app.disable("x-powered-by");
 
-app.get("/api/data", (req, res) => {
-  const data = [
-    {
-      id: 1,
-      name: "John Doe",
-      email: "john.doe@example.com"
-    },
-    {
-      id: 2,
-      name: "Jane Smith",
-      email: "jane.smith@example.com"
-    }
-  ];
-  return res.json(data);
-});
+app.use("/purchases", purchasesRouter);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {

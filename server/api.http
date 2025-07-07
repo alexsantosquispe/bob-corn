@@ -1,0 +1,2 @@
+### GET /api/data
+GET http://localhost:3000/purchases

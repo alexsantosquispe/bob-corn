@@ -5,14 +5,12 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:3000/api/data");
+      const response = await fetch("http://localhost:3000/purchases");
       const jsonRes = await response.json();
       setData(jsonRes);
     };
     fetchData();
   }, []);
-
-  console.log(data);
 
   return (
     <div>
