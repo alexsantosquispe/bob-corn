@@ -1,0 +1,8 @@
+.DS_Store
+*.log
+*.tgz
+*.zip
+
+!.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
