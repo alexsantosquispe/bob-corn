@@ -23,5 +23,9 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src"]
+  "include": [
+    "src",
+    "src/components/atoms/ArrowDownTop.tsx",
+    "src/components/atoms/ArrowTopDown.tsx"
+  ]
 }
