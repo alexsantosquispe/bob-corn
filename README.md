@@ -50,7 +50,7 @@ npm run watch
 - Install dependencies
 
 ```bash
-cd todo-api/frontend
+cd todo-api/client
 npm install
 ```
 
