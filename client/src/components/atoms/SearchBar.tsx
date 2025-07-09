@@ -19,7 +19,7 @@ export const SearchBar = ({
   return (
     <div
       className={twMerge(
-        'flex w-fit rounded-[0.3125rem] border border-gray-200',
+        'flex w-fit rounded-[0.625rem] border border-gray-200',
         className
       )}
     >

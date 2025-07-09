@@ -1,8 +1,9 @@
+import { useEffect } from 'react';
+import { Footer } from './components/molecules/Footer';
 import { Navbar } from './components/molecules/Navbar';
 import { Hero } from './components/organisms/Hero';
 import { OurService } from './components/organisms/OurService';
-// import { PopularBrands } from './components/organisms/PopularBrands';
-import { useEffect } from 'react';
+import { PopularBrands } from './components/organisms/PopularBrands';
 import { PopularCategories } from './components/organisms/PopularCategories';
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
         <Hero />
         <OurService />
         <PopularCategories />
-        {/* <PopularBrands /> */}
+        <PopularBrands />
       </main>
+      <Footer />
     </div>
   );
 }

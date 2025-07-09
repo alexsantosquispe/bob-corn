@@ -24,7 +24,7 @@ export const CategoryCard = ({
     >
       {isLarge ? (
         <div className="relative">
-          <div className="absolute bottom-0 flex h-[13.8125rem] w-full bg-[#FF945B]" />
+          <div className="absolute bottom-0 flex h-[13.8125rem] w-full bg-orange-400" />
           <img
             src={pathImg}
             className="h-auto w-[29rem] scale-100 transition-all duration-200 hover:scale-110"

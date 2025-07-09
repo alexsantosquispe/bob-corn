@@ -17,7 +17,7 @@ export const Navbar = () => {
   const [selectedItemId, setSelectedItemId] = useState(MENU_ITEMS[0].id);
 
   return (
-    <header className="fixed flex w-full flex-col items-center justify-center bg-white/80 backdrop-blur-lg">
+    <header className="fixed z-50 flex w-full flex-col items-center justify-center bg-white/80 backdrop-blur-lg">
       <div className="flex w-[82.5rem] items-center py-6">
         <div className="flex w-full items-center justify-between">
           <LogoIcon />
