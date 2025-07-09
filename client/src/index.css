@@ -10,6 +10,13 @@
   --color-primary-hover: #098038;
   --color-accent: #fe8f17;
   --color-default: #1b1b1b;
+  --color-fruits: #fbf3ee;
+  --color-fish: #fce0ca;
+  --color-cooking: #d6f2f3;
+  --color-beverages: #ffecb4;
+  --color-home: #ffedf1;
+  --color-control: #e0d8c9;
+  --color-office: #fee7d7;
 }
 
 html,

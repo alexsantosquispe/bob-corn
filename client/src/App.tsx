@@ -1,7 +1,9 @@
-import { useEffect } from 'react';
-import { Navbar } from './components/atoms/Navbar';
+import { Navbar } from './components/molecules/Navbar';
 import { Hero } from './components/organisms/Hero';
 import { OurService } from './components/organisms/OurService';
+// import { PopularBrands } from './components/organisms/PopularBrands';
+import { useEffect } from 'react';
+import { PopularCategories } from './components/organisms/PopularCategories';
 
 function App() {
   useEffect(() => {
@@ -19,6 +21,8 @@ function App() {
       <main className="flex w-full flex-col">
         <Hero />
         <OurService />
+        <PopularCategories />
+        {/* <PopularBrands /> */}
       </main>
     </div>
   );
