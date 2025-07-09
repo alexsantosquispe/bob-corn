@@ -24,7 +24,7 @@ export const Hero = () => {
               <DeliveryIcon className="text-accent" />
               <span>Delivery from 2-4 hour</span>
             </div>
-            <div className="flex gap-2">
+            <div className="flex items-center gap-[0.625rem]">
               <QAIcon className="text-accent" />
               <span>Quality assurance</span>
             </div>

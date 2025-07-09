@@ -44,12 +44,26 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-[1.25rem]">
           <ColumnTitle title="Customer" />
+          <ul className="flex flex-col gap-y-2">
+            <li>My account</li>
+            <li>My orders</li>
+            <li>Return orders</li>
+            <li>Wishlist</li>
+          </ul>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-[1.25rem]">
           <ColumnTitle title="Information" />
+          <ul className="flex flex-col gap-y-2">
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>Shipping & return</li>
+            <li>FAQ</li>
+            <li>Privacy policy</li>
+            <li>Terms of use</li>
+          </ul>
         </div>
       </div>
     </div>

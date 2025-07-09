@@ -1,4 +1,5 @@
 import { CartIcon } from './CartIcon';
+import { ClockIcon } from './ClockIcon';
 import { DeliveryIcon } from './DeliveryIcon';
 import { HeartIcon } from './HeartIcon';
 import { LogoIcon } from './LogoIcon';
@@ -8,6 +9,7 @@ import { UserIcon } from './UserIcon';
 
 export {
   CartIcon,
+  ClockIcon,
   DeliveryIcon,
   HeartIcon,
   LogoIcon,
