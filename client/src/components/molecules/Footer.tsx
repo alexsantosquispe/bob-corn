@@ -30,8 +30,18 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div>
+        <div className="flex flex-col gap-[1.25rem]">
           <ColumnTitle title="Need help" />
+          <div className="flex flex-col gap-y-[0.625rem] text-xl font-medium">
+            <span>+88012345678910</span>
+            <span>+88095645671212</span>
+            <a
+              href=""
+              className="text-primary hover:text-primary-hover text-base underline"
+            >
+              contact@example.com
+            </a>
+          </div>
         </div>
 
         <div>
