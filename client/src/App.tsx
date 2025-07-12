@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Footer } from './components/molecules/Footer';
 import { Navbar } from './components/molecules/Navbar';
+import { CommentsSection } from './components/organisms/CommentsSection';
 import { Hero } from './components/organisms/Hero';
 import { OurService } from './components/organisms/OurService';
 import { PopularBrands } from './components/organisms/PopularBrands';
@@ -24,6 +25,7 @@ function App() {
         <OurService />
         <PopularCategories />
         <PopularBrands />
+        <CommentsSection />
       </main>
       <Footer />
     </div>
