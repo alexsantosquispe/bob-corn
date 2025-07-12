@@ -3,6 +3,7 @@ import { Footer } from './components/molecules/Footer';
 import { Navbar } from './components/molecules/Navbar';
 import { CommentsSection } from './components/organisms/CommentsSection';
 import { Hero } from './components/organisms/Hero';
+import { MobileAppSection } from './components/organisms/MobileAppSection';
 import { OurService } from './components/organisms/OurService';
 import { PopularBrands } from './components/organisms/PopularBrands';
 import { PopularCategories } from './components/organisms/PopularCategories';
@@ -26,6 +27,7 @@ function App() {
         <PopularCategories />
         <PopularBrands />
         <CommentsSection />
+        <MobileAppSection />
       </main>
       <Footer />
     </div>
